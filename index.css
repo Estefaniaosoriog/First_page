@@ -26,3 +26,25 @@ section{
 }
 
 
+#second-heading{
+    margin: 5px 0;
+    text-align: center;
+}
+
+
+#nav-bar{
+    display: flex;
+}
+
+#nav-list li {
+    display: inline-block;
+   
+  }
+
+  #nav-list li a {
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+  }
