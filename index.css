@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#main-heading{
+    margin: 45px 0;
+    text-align: center;
+}
+
+
+section{
+    width: 500px;
+    margin: auto;
+}
+
+
+#first-section{
+    border: 3px solid #120503;
+    border-radius: 25px;
+    padding: 20px 50px;
+    background-color: rgb(238, 184, 170);
+}
+
+
