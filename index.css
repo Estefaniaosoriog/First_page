@@ -7,37 +7,40 @@
 
 
 #main-heading{
-    margin: 45px 0;
+    margin: 10% 10;
     text-align: center;
 }
 
 
 section{
-    width: 500px;
+    width: 900px;
     margin: auto;
 }
 
 
 #first-section{
-    border: 3px solid #120503;
-    border-radius: 25px;
-    padding: 20px 50px;
-    background-color: rgb(238, 184, 170);
+    margin: auto;
+    padding: auto;
+    text-align: center
 }
 
 
 #second-heading{
-    margin: 5px 0;
+    margin: 5% 0%;
     text-align: center;
 }
 
 
 #nav-bar{
     display: flex;
+    padding: 3% 0%;
+    text-align: center;
 }
 
 #nav-list li {
     display: inline-block;
+    padding: 50;
+    text-align: center;
    
   }
 
@@ -46,5 +49,14 @@ section{
     text-align: center;
     justify-content: center;
     display: flex;
-    
   }
+
+#paragraph1{
+    padding: 20;
+    margin: 5% 0%;
+}
+
+#button1{
+    margin: 5% 0%;
+    padding: 20;
+}
