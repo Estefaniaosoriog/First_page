@@ -1,22 +1,21 @@
 *{
-    margin: 0;
-    padding: 0;
     font-family: 'Roboto', sans-serif;
+    text-align: left;
 }
 
-
-
 #main-heading{
-    margin: 10% 10;
+    margin: 2% 0%;
     text-align: center;
 }
 
+    table {
+    border-collapse: collapse;
+    }
 
-section{
-    width: 900px;
-    margin: auto;
-}
-
+    section{
+        width: 85vw;
+        margin: 78px;
+    }
 
 #first-section{
     margin: auto;
@@ -39,10 +38,9 @@ section{
 
 #nav-list li {
     display: inline-block;
-    padding: 50;
+    padding: 0 85px;
     text-align: center;
-   
-  }
+    }
 
   #nav-list li a {
     text-decoration: none;
@@ -57,6 +55,47 @@ section{
 }
 
 #button1{
+    margin: 2% 0%;
+    padding: 10;
+}
+
+#first-image-section{
+    margin: 5% 5%;
+    justify-content: center;
+}
+
+th, td {
+    padding: 18px;
+    text-align: left;
+  }
+
+  th, td {
+    border: 1px solid black;
+  }
+
+li {
+        padding: 18px;
+        text-align: left;
+      }
+
+#recipes{
+    margin: 5% 0%;
+}
+
+#button2{
     margin: 5% 0%;
     padding: 20;
+}
+
+#table-title{
+    text-align: center;
+}
+
+#btn{
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: 4px;
 }

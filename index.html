@@ -8,38 +8,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
-    <title>Recetas</title>
+    <title>Recipes</title>
 </head>
 <body>
-    <h1 id="main-heading">Ideas for every day!</h1>
+    <h3 id="main-heading">Ideas for every day!</h3>
     <section id="first-section">
-        <h2 id="second-heading">Lorem ipsum dolor sit amet.</h2>
         <nav id="nav-bar">
             <ul id="nav-list">
-                <li><a href="">Introduccion</a></li>
-                <li><a href="">Table</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#introduction">Introduccion</a></li>
+                <li><a href="#table-title">Recipes</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#form">Contact</a></li>
             </ul>
         </nav>
-    </section>
-    <img src="recipes+banner+.jpg" alt="recipes">
-    <section>
-        <figure>
-            <img src="" alt="">
-        </figure>
-    </section>
-    <section>
+    </section id= "image-section">
+    <img src="recipes+banner+.jpg" alt="recipes" class="center">
+    <section id="introduction">
         <p id="Paragraph1">
             Welcome to our mouthwatering recipes website, a culinary haven where you can explore an extensive collection of delicious recipes from around the world. Whether you're a seasoned chef or a beginner in the kitchen, our website is designed to inspire and guide you on your culinary adventures. Get ready to tantalize your taste buds with our diverse range of recipes, ranging from quick and easy meals for busy weeknights to elaborate dishes for special occasions. 
         </p>
-            <button id="button1">
-                Return home
-            </button>
+        <a href="#main-heading" id="btn">Return home</a>
     </section>
     <section>
-        <h2>Recipes table</h2>
-        <table>
+        <h2 id="table-title">Recipes</h2>
+        <table id="Table1">
             <tr>
               <th>Dish Name</th>
               <th>Ingredients</th>
@@ -47,22 +39,22 @@
               <th>Result</th>
             </tr>
             <tr>
-              <td>hummus & crispy chickpeas sandwich</td>
+              <td>Hummus & crispy chickpeas sandwich</td>
               <td>
-                <ol>
+                <ul>
                     <li>300g pack cooked beetroot</li>
                     <li>400g can chickpeas, drained</li>
                     <li>Three tbsp vegan pesto</li>
                     <li>Two large ciabatta rolls, sliced in half</li>
                     <li>Two large handfuls mixed rocket, watercress & spinach salad</li>
-                </ol>
+                </ul>
               </td>
               <td>
-                <p>Step1</p>
-                <p>Blitz the whole beetroot, ¾ of the chickpeas, 2 tbsp pesto and 1 tbsp oil in a food processor with some seasoning until you have a thick, smooth hummus. Heat the ciabatta following the pack instructions.</p>
-                <p>Step2</p>
-                <p>Fry the remaining chickpeas in a little oil until crisp, then set aside. Toss the salad leaves with the remaining pesto and a splash of vinegar. Slice the rolls, then assemble the sandwiches with the hummus, beetroot slices, salad leaves and fried chickpeas.</p>
-            </td>
+                <ol>
+                  <li>Blitz the whole beetroot, ¾ of the chickpeas, 2 tbsp pesto and 1 tbsp oil in a food processor with some seasoning until you have a thick, smooth hummus. Heat the ciabatta following the pack instructions.</li>
+                  <li>Fry the remaining chickpeas in a little oil until crisp, then set aside. Toss the salad leaves with the remaining pesto and a splash of vinegar. Slice the rolls, then assemble the sandwiches with the hummus, beetroot slices, salad leaves and fried chickpeas.</li>
+                </ol>
+              </td>
               <td>
                 <img src="Sanwich1.png" alt="Sandwich1"> 
               </td>
@@ -71,19 +63,19 @@
         <tr>
           <td>Saucy bean baked eggs</td>
           <td>
-            <ol>
+            <ul>
                 <li>400g cans cherry tomatoes</li>
                 <li>400g can mixed bean salad, drained</li>
                 <li>200g baby spinach</li>
                 <li>4 medium eggs</li>
                 <li>50g thinly sliced smoked ham, torn</li>
-            </ol>
+            </ul>
           </td>
           <td>
-            <p>Step1</p>
-            <p>Tip the tomatoes and bean salad into an ovenproof frying pan or shallow flameproof casserole dish. Simmer for 10 mins, or until reduced. Stir in the spinach and cook for 5 mins more until wilted.</p>
-            <p>Step2</p>
-            <p>Heat the grill to medium. Make four indentations in the mixture using the back of a spoon, then crack one egg in each. Nestle the ham in the mixture, then grill for 4-5 mins, or until the whites are set and the yolks runny. Serve with rye bread, if you like.</p>
+            <ol>
+              <li>Tip the tomatoes and bean salad into an ovenproof frying pan or shallow flameproof casserole dish. Simmer for 10 mins, or until reduced. Stir in the spinach and cook for 5 mins more until wilted.</li>
+              <li>Heat the grill to medium. Make four indentations in the mixture using the back of a spoon, then crack one egg in each. Nestle the ham in the mixture, then grill for 4-5 mins, or until the whites are set and the yolks runny. Serve with rye bread, if you like.</li>
+            </ol>
         </td>
           <td>
             <img src="Eggs.png" alt="Eggs"> 
@@ -91,53 +83,52 @@
         </tr> 
         <td>Peanut butter & jam flapjacks</td>
         <td>
-          <ol>
+          <ul>
               <li>5 tbsp salted butter, plus extra for the tin</li>
               <li>250g crunchy peanut butter</li>
               <li>8 tbsp strawberry or raspberry jam</li>
               <li>80g light brown soft sugar</li>
               <li>200g rolled oats</li>
-          </ol>
+          </ul>
         </td>
         <td>
-          <p>Step1</p>
-          <p>Heat the oven to 180C/160C fan/gas 4. Butter and line the base and sides of a 20cm square cake tin with baking parchment.</p>
-          <p>Step2</p>
-          <p>Put 3 tbsp each of the peanut butter and jam in separate small bowls and set aside. Tip the remaining peanut butter, the rest of the jam and the butter and sugar into a pan set over a medium heat and stir until everything has melted together. Quickly stir in the oats, then leave to cool for 5 mins.</p>
-          <p>Step3</p>
-          <p>Spoon the mixture into the prepared cake tin and gently press down with your hands. Dot over the reserved peanut butter and jam, then bake for 20-25 mins or until golden brown. Leave to cool completely in the tin, then turn out onto a board and cut into squares.</p>
+          <ol>
+            <li>Heat the oven to 180C/160C fan/gas 4. Butter and line the base and sides of a 20cm square cake tin with baking parchment.</li>
+            <li>Put 3 tbsp each of the peanut butter and jam in separate small bowls and set aside. Tip the remaining peanut butter, the rest of the jam and the butter and sugar into a pan set over a medium heat and stir until everything has melted together. Quickly stir in the oats, then leave to cool for 5 mins.</li>
+            <li>Spoon the mixture into the prepared cake tin and gently press down with your hands. Dot over the reserved peanut butter and jam, then bake for 20-25 mins or until golden brown. Leave to cool completely in the tin, then turn out onto a board and cut into squares.</li>
+          </ol>
       </td>
         <td>
           <img src="Peanut.png" alt="Peanut"> 
         </td>
       </tr>           
           </table>
-        <button>
-            Return home
-        </button>
+          <a href="#main-heading" id="btn">Return home</a>
     </section>
-    <section>
+    <section id="about-us">
         <h3>About Us</h3>
-        <h3>Description</h3>
         <p>Welcome to our recipes website, your ultimate culinary destination. Here, you'll find a treasure trove of handpicked recipes that are sure to tantalize your taste buds and inspire your inner chef. From tried-and-true classics to innovative twists on beloved dishes, our collection offers something for everyone.</p>
         <h3>Adress</h3>
         <p>123 Main Street,
             Anytown, USA 12345</p>
         <h3>"Cooking is like love. It should be entered into with abandon or not at all." - Harriet van Horne</h3>
-        <button>
-            Return home
-        </button>
+        <a href="#main-heading" id="btn">Return home</a>
     </section>
-    <section>
-        <h2>Contact Form</h2>
-        <h3>User Name</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, officiis?</p>
-        <h2>Email</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-        <h2>Message</h2>
-        <button>
-            Return home
-        </button>
+    <section id="form">
+      <form action="#">
+
+        <label for="fname">Full Name</label> <br>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+    
+        <label for="lname">E-mail</label> <br>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."> <br>
+    
+        <label for="subject">Comments</label> <br>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> <br>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
     </section>
     <footer>
         <p>Copyright</p>
